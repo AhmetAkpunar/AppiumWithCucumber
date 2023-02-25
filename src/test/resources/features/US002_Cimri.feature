@@ -9,3 +9,5 @@ Feature: Price sort
     Then click electricity bikes
     Then click sort price from low to high
     And verify that prices sorted from low to high
+
+
