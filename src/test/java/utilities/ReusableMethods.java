@@ -1,11 +1,9 @@
 package utilities;
 
-import org.junit.Test;
-
 public class ReusableMethods {
 
 
-    public static void bekle(int seconds){
+    public static void waitForIt(int seconds){
 
         try {
             Thread.sleep(seconds*1000);

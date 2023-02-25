@@ -57,4 +57,18 @@ public class PageN11 {
 
     public By itemTitle = By.id("com.dmall.mfandroid:id/basketItemTitleTV");
 
+    // PDP linki
+    //(//*[@resource-id='com.dmall.mfandroid:id/ivRecommendationProduct'])[1]
+
+    //dropdown menu
+    //com.dmall.mfandroid:id/skuSelectionIcon
+
+    //mor rengi xpath
+    //(//*[@resource-id='com.dmall.mfandroid:id/skuNameTV'])[4]
+
+    //seç butonu
+    //*[@resource-id='com.dmall.mfandroid:id/continueButton']
+
+    //Sepete ekle butonu
+    //*[@resource-id='com.dmall.mfandroid:id/pdpAddToCartButton']
 }
