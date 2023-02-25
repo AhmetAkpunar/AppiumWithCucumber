@@ -1,4 +1,4 @@
-  @n11
+
   Feature: Add product to the cart
 
     Scenario: User be able to add product in the cart
