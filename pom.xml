@@ -56,6 +56,7 @@
             <artifactId>maven-plugin-api</artifactId>
             <version>3.8.6</version>
         </dependency>
+
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
@@ -79,7 +80,6 @@
                         </goals>
                         <configuration>
                             <projectName>cucumber-jvm-example</projectName>
-                            <skip>false</skip>
                             <outputDirectory>${project.build.directory}</outputDirectory>
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
@@ -125,6 +125,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 

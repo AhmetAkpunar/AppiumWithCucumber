@@ -33,6 +33,7 @@ public class StepDef_N11 {
         driver.findElement(pageN11.searchText).sendKeys(ConfigReader.getProperty("item"));
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
         driver.hideKeyboard();
+        driver.pressKey(new KeyEvent(AndroidKey.DPAD_DOWN));
     }
 
     @Given("select color  {string}")
@@ -50,7 +51,6 @@ public class StepDef_N11 {
     public void verify_that_the_product_is_in_the_cart() {
         driver.findElement(pageN11.sepetim).click();
         driver.pressKey(new KeyEvent(AndroidKey.DPAD_DOWN));
-        ReusableMethods.waitForIt(2);
         String expectedTxt = ConfigReader.getProperty("item");
         String actualTxt = driver.findElement(pageN11.itemTitle).getText();
         Assert.assertTrue(actualTxt.contains(expectedTxt));
