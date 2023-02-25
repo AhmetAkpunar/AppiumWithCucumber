@@ -5,7 +5,5 @@
 
       * launch n11 mobile app
       * search "iphone 14"
-      #* select color  "Mor"
-      #* select memory  "128 GB"
       * add product to the cart
       * verify that the product is in the cart

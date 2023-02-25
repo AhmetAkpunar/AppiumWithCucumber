@@ -18,7 +18,6 @@ public class PageN11 {
 
     public static AndroidDriver<AndroidElement> driver;
 
-
     public AndroidDriver<AndroidElement> getDriver(){
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -39,23 +38,18 @@ public class PageN11 {
 
     }
 
-
     public By searchBox = By.id("com.dmall.mfandroid:id/ivLogoHomeSearchBar");
-
     public By searchText = By.id("com.dmall.mfandroid:id/etSearch");
-
     public By touchOutside = By.id("com.dmall.mfandroid:id/touch_outside");
     public By color = By.xpath("//*[@text='Mor']");
-
     public By memory = By.xpath("//*[@text='128 GB']");
     public By addToBasket = By.xpath("(//*[@resource-id ='com.dmall.mfandroid:id/ivAddToBasket'])[1]");
-
     public By sepeteEkle = By.id("com.dmall.mfandroid:id/continueButton");
     public By sepetim = By.id("com.dmall.mfandroid:id/navigation_basket");
+    public By itemTitle = By.id("com.dmall.mfandroid:id/basketItemTitleTV");
+
     //accessibiliyId = Sepetim, 1 new notification
     //xpath =//android.widget.FrameLayout[@content-desc="Sepetim, 1 new notification"]
-
-    public By itemTitle = By.id("com.dmall.mfandroid:id/basketItemTitleTV");
 
     // PDP linki
     //(//*[@resource-id='com.dmall.mfandroid:id/ivRecommendationProduct'])[1]

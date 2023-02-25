@@ -53,10 +53,6 @@ public class StepDef_N11 {
         ReusableMethods.waitForIt(2);
         String expectedTxt = ConfigReader.getProperty("item");
         String actualTxt = driver.findElement(pageN11.itemTitle).getText();
-        System.out.println("expectedTxt = " + expectedTxt);
-        System.out.println("=============================");
-        System.out.println("expectedTxt = " + expectedTxt);
-        System.out.println("actualTxt = " + actualTxt);
         Assert.assertTrue(actualTxt.contains(expectedTxt));
     }
 
