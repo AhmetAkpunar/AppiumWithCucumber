@@ -33,6 +33,7 @@ public class StepDef_Cimri {
 
     @Then("click sport and outdoor")
     public void click_sport_and_outdoor() {
+        ReusableMethods.waitForIt(5);
      driver.findElement(pageCimri.sporOutdoor).click();
 
     }

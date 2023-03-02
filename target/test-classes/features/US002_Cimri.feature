@@ -1,4 +1,4 @@
-@run
+
 Feature: Price sort
 
   Scenario: User be able to sort prices low to high
