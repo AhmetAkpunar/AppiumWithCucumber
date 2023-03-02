@@ -1,6 +1,8 @@
 C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\utilities\ReusableMethods.java
-C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\runners\Runner.java
+C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\stepdefinitions\StepDef_Cimri.java
 C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\stepdefinitions\StepDef_N11.java
+C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\pages\PageCimri.java
+C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\runner\Runner.java
 C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\utilities\ConfigReader.java
 C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\utilities\Driver.java
 C:\Users\ahmet\IdeaProjects\com.Appium.Cucumber\src\test\java\pages\PageN11.java

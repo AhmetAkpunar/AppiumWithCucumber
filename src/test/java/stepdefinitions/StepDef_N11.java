@@ -8,6 +8,7 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import pages.PageN11;
 import utilities.ConfigReader;
 import utilities.ReusableMethods;
@@ -18,13 +19,12 @@ public class StepDef_N11 {
 
         PageN11 pageN11 = new PageN11();
         AndroidDriver<AndroidElement> driver;
-        AndroidTouchAction action ;
 
-    @Before
-    public void driverSetUp(){driver = pageN11.getDriver();}
+    //@BeforeClass public void driverSetUp(){}
 
     @Given("launch n11 mobile app")
     public void launch_n11_mobile_app() {
+        driver = pageN11.getDriver();
         driver.findElement(pageN11.searchBox).click();
     }
 

@@ -1,4 +1,4 @@
-package runners;
+package runner;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features" ,
         glue = "stepdefinitions" ,
-        tags= "@run",
+        tags= "@run,@n11",
         dryRun = false
 )
 

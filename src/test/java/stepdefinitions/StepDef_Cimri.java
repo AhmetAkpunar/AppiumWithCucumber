@@ -6,24 +6,31 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Before;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import pages.PageCimri;
+import utilities.Driver;
 import utilities.ReusableMethods;
+
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class StepDef_Cimri {
 
+    AndroidDriver<AndroidElement> driver;
 
     PageCimri pageCimri = new PageCimri();
-    public static AndroidDriver<AndroidElement> driver;
 
+    /*
     @Before
-    public void driverSetUp(){
-        pageCimri.getDriver();
+    public void driverSetUp(){driver = PageCimri.getDriver();}
+
+     */
+
+    @Given("launch {string} mobile app")
+    public void launchMobileApp(String cimri) {
+        driver = PageCimri.getDriver();
     }
 
-    @Given("launch cimri mobile app")
-    public void launch_cimri_mobile_app() {
-        ReusableMethods.waitForIt(2000);
-    }
     @Then("click sport and outdoor")
     public void click_sport_and_outdoor() {
      driver.findElement(pageCimri.sporOutdoor).click();
@@ -52,6 +59,7 @@ public class StepDef_Cimri {
         String ikinciDusukFyt = driver.findElement(pageCimri.ikinciDusFiyat).getText();
 
     }
+
 
 
 }

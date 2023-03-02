@@ -4,6 +4,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
@@ -16,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class PageN11 {
 
-    public static AndroidDriver<AndroidElement> driver;
+    private static AndroidDriver<AndroidElement> driver;
 
     public AndroidDriver<AndroidElement> getDriver(){
 

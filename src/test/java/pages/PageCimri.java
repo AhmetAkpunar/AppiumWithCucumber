@@ -11,9 +11,9 @@ import java.net.URL;
 
 public class PageCimri {
 
-    public static AndroidDriver<AndroidElement> driver;
+    private static AndroidDriver<AndroidElement> driver;
 
-    public AndroidDriver<AndroidElement> getDriver(){
+    public static AndroidDriver<AndroidElement> getDriver(){
 
         DesiredCapabilities caps = new DesiredCapabilities();
 
@@ -35,7 +35,6 @@ public class PageCimri {
     public By sporOutdoor = By.xpath("//android.view.View[@content-desc=\"Spor, Outdoor\"]");
     public By bisiklet = By.xpath("//android.view.View[@content-desc=\"bisikletler Bisikletler (7.487 ürün)\"]/android.view" +
                                           ".View");
-
     public By elektrikliB = By.xpath("//android.view.View[@content-desc=\"elektrikli-bisikletler Elektrikli Bisikletler (59 " +
                                             "ürün)" +
                                       "\"]/android.view.View");
