@@ -1,3 +1,6 @@
+runner\Runner.class
+pages\PageCimri.class
+stepdefinitions\StepDef_Cimri.class
 pages\PageN11.class
 utilities\ConfigReader.class
 stepdefinitions\StepDef_N11.class
